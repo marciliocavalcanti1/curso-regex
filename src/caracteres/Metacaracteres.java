@@ -6,8 +6,10 @@ public class Metacaracteres {
 	public static void main(String[] args) {
 		// . ? * + - ^ $ | [ ] { } ( ) \ :
 		String texto = "1,2,3,4,5,6,a.b c!d?e";
-		// Metacaractere "Escape": Quero utilizar um metacaractere de forma literal
-		// Por exemplo o metacaractere ".", neste exemplo quero utiliza-lo de forma literal
+		/* 
+		 * Metacaractere "Escape": Quero utilizar um metacaractere de forma literal
+		 * Por exemplo o metacaractere ".", neste exemplo quero utiliza-lo de forma literal
+		 */
 		String regexPonto = "\\.";
 		String regexSimbolos = ",|\\.|\\?|!| ";
 		String[] regexArray = texto.split(regexPonto);
